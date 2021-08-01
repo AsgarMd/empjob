@@ -1,0 +1,124 @@
+.my_nav{
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.3);
+  background-color: rgb(255 255 28 /87%);
+  background:blur(10px);
+     }
+.main-header{
+  
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}     
+.header-text-holder{
+  text-align:center;
+  color:blue;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+a.ex1:hover{
+background-color:green;
+
+}
+.body{
+    background-color: gainsboro;
+
+}
+.bx{
+    box-shadow: 2px 2px 18px rgba(0,0,0,0.2);
+}
+.card-border{
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    border:0px;
+}
+.align{
+    float:right;
+padding:15px;
+}
+.wh{
+    width:200px;
+    height:18px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  background-color:palevioletred;
+  color: green;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+.merq{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+td {
+  text-align: center;
+}
+  .result {
+  border:solid red 2px;
+  color:black;
+  padding:10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  }
+  .result td {
+  border:solid blue 1px;
+  padding:2px;
+  text-align:center;
+  }
+  .product{
+    width:230px;
+    height:auto;
+    float:left;
+    border:1px solid black;
+    margin:5px;
+    padding:8px;
+  }
+  .product-caption p{
+    font-weight:bold;
+  }
+  .product-caption del{
+    color:red;
+  }
+  .product-caption ins{
+    color:green;
+  }
+  .product-caption a{
+    display:block;
+    background-color: teal;
+    padding: 10px;
+    text-align: center;
+    color:white;
+    font-size: small;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  .product-caption a:hover{
+  background-color: orange;  
+  }
+  .product img{
+    height:180px;
+   
+  }
+  .box{
+    padding:15px;
+    background-color: teal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.custom_nav{
+background-color:rgb(28, 46, 53);
+}
+.form_s{
+float:right;
+padding:15px;
+box-shadow: 2px,2px,8px rgb(0,0,0.3);
+}
+.add{
+    float:middle;
+}
+.dvpad{
+  padding-top:90px;
+  
+}

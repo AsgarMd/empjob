@@ -1,0 +1,156 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel ="stylesheet" href="style.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Employee list</title>
+  </head>
+  <body>
+  
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand ex1" href="#">Hi Asgar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand ex1" href="home.php">Home</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active ex1" aria-current="page" href="employee.php">Employee</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active ex1" href="employee.php">Jobs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active ex1" href="employee_list.php">Employee Data</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link active ex1" href="emp_product.php">Employee-Product</a>
+              </li>
+             
+              </ul>
+            <form class="d-flex">
+                <div class="input-group">
+                    <input type="search" class="form-control form-control-sm" placeholder="search..." aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-sm btn-success" type="submit" id="button-addon2"><i class="fa fa-search"></i></button>
+                    <a class="list-group-item bg-primary link-light ex1" href="log_out.php">Log Out</a>
+                  </div>
+            </form>
+          </div>
+
+        </div>
+      </nav> 
+ <div class="dvpad">
+    <div class="container">   
+      <div class="product-list">
+        <div class="product">
+            <img src="laptop.jpg" alt="laptop" style="width: 220px; height:180px" >
+             <div class="product-caption">
+            <p>Laptop</p>
+            <p><del>Rs.50,000/-</del><ins>&nbsp&nbsp Rs.25,000/-</ins></p>
+            <a href="#">Buy Now</a>
+            </div></div>
+            <div class="product">
+            <img src="i-phone.jpg" alt="lphone" style="width: 220px; height:180px" >
+            <div class="product-caption">
+            <p>I-Phone</p>
+            <p><del>Rs.1,00000-</del><ins>&nbsp&nbsp Rs.80,000/-</ins></p>
+            <a href="#">Buy Now</a>
+            </div></div>
+            <div class="product">
+            <img src="tablet.jpeg" alt="tablet">
+            <div class="product-caption">
+            <p>Tablet</p>
+            <p><del>Rs.30,000/-</del><ins> &nbsp&nbsp Rs.18,000/-</ins></p>
+            <a href="#">Buy Now</a>
+           </div></div>
+             <div class="product">
+            <img src="mobile1.jpg" alt="mobile">
+            <div class="product-caption">
+            <p>OnePlus</p>
+            <p><del>Rs.30,000-</del><ins>&nbsp&nbsp Rs.20,000/-</ins></p>
+            <a href="#">Buy Now</a>
+            </div></div>
+            <div class="product">
+            <img src="mobile2.jpg" alt="mobile">
+            <div class="product-caption">
+            <p>Oppo</p>
+            <p><del>Rs.20,000-</del><ins>&nbsp&nbsp Rs.18,000/-</ins></p>
+            <a href="#">Buy Now</a>
+            </div></div>
+            <div class="product">
+            <img src="mobile3.jpg" alt="mobile">
+            <div class="product-caption">
+            <p>Realme</p>
+            <p><del>Rs.20,000-</del><ins>&nbsp&nbsp Rs.15,000/-</ins></p>
+            <a href="#">Buy Now</a>
+            </div></div>
+            <div class="product">
+            <img src="headpjone1.jpg" alt="headphone">
+            <div class="product-caption">
+            <p>Headphone</p>
+            <p><del>Rs.6,000-</del><ins>&nbsp&nbsp Rs.3,000/-</ins></p>
+            <a href="#">Buy Now</a>
+            </div></div>
+            <div class="product">
+            <img src="headphone3.jpg" alt="headphone">
+            <div class="product-caption">
+            <p>Headphone</p>
+            <p><del>Rs.5,000-</del><ins>&nbsp&nbsp Rs.3,000/-</ins></p>
+            <a href="#">Buy Now</a>
+            </div></div>
+            <div class="product">
+            <img src="headphone3.jpg" alt="headphone">
+            <div class="product-caption">
+            <p>Headphone</p>
+            <p><del>Rs.5,000-</del><ins>&nbsp&nbsp Rs.2,000/-</ins></p>
+            <a href="#">Buy Now</a>
+            </div></div>
+            <div class="product">
+            <img src="bluetooth.jpeg" alt="bluetooth">
+            <div class="product-caption">
+            <p>Bluetooth</p>
+            <p><del>Rs.4,000-</del><ins>&nbsp&nbsp Rs.3,000/-</ins></p>
+            <a href="#">Buy Now</a>
+            </div></div>
+            <div class="product">
+            <img src="bluetooth2.jpeg" alt="bluetooth">
+            <div class="product-caption">
+            <p>Bluetooth</p>
+            <p><del>Rs.4,000-</del><ins>&nbsp&nbsp Rs.2,000/-</ins></p>
+            <a href="#">Buy Now</a>
+            </div></div>
+            <div class="product">
+            <img src="bluetooth3.jpeg" alt="bluetooth" style="width: 220px; height:180px"  >
+            <div class="product-caption">
+            <p>Bluetooth</p>
+            <p><del>Rs.3,000-</del><ins>&nbsp&nbsp Rs.2,000/-</ins></p>
+            <a href="#">Buy Now</a>
+            </div>
+          </div>
+      </div> 
+    </div>     
+   <!-- O
+        ptional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

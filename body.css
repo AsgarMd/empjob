@@ -1,0 +1,206 @@
+body{
+margin:0 auto;
+background-color:teal;
+}
+
+.logo{
+float:left;
+padding:15px;
+    
+}
+.search{
+  float:right;
+  padding:15px;
+  }
+  .clearfix{
+  clear:both;
+  }
+  .main-menu > ul
+  {
+  margin:0px;
+  padding:5px;
+  list-style-type:none;
+}
+ .main-menu
+  {
+  background-color:royalblue;
+  }
+ 
+  .main-menu > ul > li 
+  {
+  display:inline-block;
+  }
+    
+.main-menu > ul > li > a
+{
+color:white;
+text-decoration:none;
+display:flex;
+padding:15px;
+}
+  .main-menu > ul > li > a:hover
+  {
+  background-color:orange;
+
+}
+.drop
+{
+list-style-type:none;
+margin:0px;
+padding:0px;
+position:absolute;
+display:none;
+}
+.drop li > a
+{
+color:white;
+text-decoration:none;
+display:block;
+padding:15px;
+font-size:small;
+background-color:black;
+}
+.drop  li > a:hover
+{
+background-color:orange;
+}
+.main-menu ul > li:hover .drop
+{
+display:block;
+}
+.banner
+{
+width:1000px;
+height:auto;
+}
+.banner img
+{
+width:100%;
+height:auto;
+}
+.content-holder
+{background-color:teal;
+}
+.content{
+width:1000px;
+height:auto;
+padding:25px;
+background-color:white;
+float:left;
+
+}
+.content h1{
+font-size:2em;
+font-family:sans-serif;
+}
+.content p{
+  font-family:sans-serif;
+  font-size: small;
+}
+.sidebar{
+  float:left;
+  padding:25px;
+}
+.sidebar h3{
+font-family: sans-serif;
+color:white;
+}
+.sidebar ul{
+  margin:0px;
+  padding:0px;
+  list-style-type: none;
+}
+.sidebar ul > li > a{
+display: block;
+margin-bottom: 5px;
+color:white;
+font-family: sans-serif;
+font-style: italic;
+text-decoration: none;
+}
+.main-footer{
+  background-color: black;
+  color: white;
+  width:1000px;
+  height:auto;
+  padding:40px;
+  
+}
+.footer-box
+{
+  width:210px;
+  height:auto;
+  float:left;
+  font-family:sans-serif;
+}
+.footer-box ul{
+  list-style-type: none;
+  margin:0px;
+  padding:0px;
+}
+.footer-box > ul > li > a{
+display:block;
+font-size:small;
+margin-bottom: 5px;
+color:white;
+text-decoration:none;
+}
+address p{
+  font-size: small;
+}
+.footer-box address a{
+  color:teal;
+  font-size:small;
+
+}
+.copy{
+  font-family: sans-serif;
+  padding:25px;
+  text-align: center;
+  background-color: crimson;
+  color:white;
+}
+.copy p{
+  margin:0px;
+
+}
+.content img{
+  max-width:100%;
+}
+.product{
+  width:230px;
+  height:auto;
+  float:left;
+  border:1px solid black;
+  margin:5px;
+  padding:8px;
+}
+.product-caption p{
+  font-weight:bold;
+}
+.product-caption del{
+  color:red;
+}
+.product-caption ins{
+  color:green;
+}
+.product-caption a{
+  display:block;
+  
+  padding: 10px;
+  text-align: center;
+  color:white;
+  font-size: small;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.product-caption a:hover{
+background-color: orange;  
+}
+.product img{
+  height:180px;
+}
+.banner iframe{
+width:100%;
+height:390px;
+}
